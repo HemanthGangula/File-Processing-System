@@ -26,7 +26,7 @@ Create an **S3 bucket (`<bucket_name>`)** and set up an event notification to tr
 ### 3. DynamoDB Table Setup
 Create a **DynamoDB table (`<database_name>`)** with:
 - **Partition Key:** `filename` (String)
-- **Sort Key:** `upload_timestamp` (String)
+- **Sort Key:** `upload_timestamp` (Number)
 
 ### 4. Lambda Function Setup
 - Create a **Lambda function (`<lambda_function_name>`)** with **Python 3.12** runtime.
@@ -37,7 +37,7 @@ Create a **DynamoDB table (`<database_name>`)** with:
   DYNAMODB_TABLE = <database_name>
   ```
 - Set **memory: 256MB**, **timeout: 30s**, **ephemeral storage: 512MB**.
-- Attach **S3 trigger** with **prefix `.csv`** and enable **recursive invocation prevention**.
+- Attach **S3 trigger** with **suffix `.csv`** and enable **recursive invocation prevention**.
 
 ## Deployment
 ### 1. Install Dependencies
