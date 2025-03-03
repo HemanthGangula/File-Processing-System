@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore packages and dependencies
+bin/
+boto3/
+boto3-*.dist-info/
+botocore/
+botocore-*.dist-info/
+dateutil/
+jmespath/
+jmespath-*.dist-info/
+numpy/
+numpy-*.dist-info/
+numpy.libs/
+pandas/
+pandas-*.dist-info/
+python_dateutil-*.dist-info/
+pytz/
+pytz-*.dist-info/
+s3transfer/
+s3transfer-*.dist-info/
+six-*.dist-info/
+six.py
+tzdata/
+tzdata-*.dist-info/
+urllib3/
+urllib3-*.dist-info/
+
+# Ignore the function.zip file
+function.zip
+
+# Ignore other system files
+.DS_Store
