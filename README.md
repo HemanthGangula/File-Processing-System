@@ -62,8 +62,6 @@ aws dynamodb scan --table-name <database_name>
 
 ## Limitations
 - Designed for **CSV files up to 10MB**.
-- **No direct error handling implemented yet** (can be added in Lambda).
-- Currently **supports only AWS-managed services** (local testing with LocalStack not configured yet).
 
 ## Customization
 This system can be modified to:

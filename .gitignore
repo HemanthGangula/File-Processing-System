@@ -33,3 +33,4 @@ function.zip
 
 # Ignore other system files
 .DS_Store
+.csv
