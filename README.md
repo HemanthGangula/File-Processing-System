@@ -76,3 +76,4 @@ This project provides a **scalable, serverless, and secure** file processing sol
 ---
 **Note:** Ensure that **`<bucket_name>`**, **`<database_name>`**, **`<lambda_function_name>`**, and **`<iam_role_name>`** are replaced with the actual resource names in your AWS account.
 
+
